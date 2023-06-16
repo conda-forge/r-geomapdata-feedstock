@@ -1,11 +1,11 @@
-About r-geomapdata
-==================
+About r-geomapdata-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-geomapdata-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=geomapdata
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-geomapdata-feedstock/blob/main/LICENSE.txt)
 
 Summary: Set of data for use in package GEOmap.  Includes world map, USA map, Coso map, Japan Map, ETOPO5
 
