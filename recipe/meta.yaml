@@ -1,4 +1,4 @@
-{% set version = "2.0-0" %}
+{% set version = "2.0-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/geomapdata_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/geomapdata/geomapdata_{{ version }}.tar.gz
-  sha256: 443db35b673a0883baae28064210d1058bbba7cd49db036be33386e87d870757
+  sha256: bd7df8c561bf7fd9c9ce0ccdb53acdce6cd8f4072b7c28cdb5f1403235c7e0ba
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
